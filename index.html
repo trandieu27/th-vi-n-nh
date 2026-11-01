@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Du lịch Việt Nam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Du lịch Việt Nam</h1>
+  </header>
+
+  <main>
+    <h2>Sáu điểm đến nổi bật</h2>
+    <p>Di chuột hoặc nhấn phím Tab vào một bức ảnh để xem ảnh lớn.</p>
+
+    <div id="image" aria-live="polite">Chọn một bức ảnh bên dưới</div>
+
+    <div class="gallery">
+      <img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-cRrjx-23-nCXBgzUpvRKkwToQQxZUtJWGBqwEEkAg&s=10" alt="Vịnh Hạ Long với những đảo đá vôi giữa biển xanh"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKe4uojbr60_N2GADnJMky8rKJ-dr2BAJQewoIaavSSg&s=10" alt="Phố cổ Hội An về đêm với đèn lồng"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdyLW2wd8s3dRu3ZZ_7aEiUg4qcB2SA2TPpmEDEVVb6g&s=10" alt="Đỉnh Fansipan phủ mây ở Sa Pa"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtCSsSTE_S6Jy9xlKhdmYMoqASDoXsh7KM9LICFIKe0g&s=10" alt="Bãi biển cát trắng ở Phú Quốc"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3F_huKNP54OS4zi5dTe3SkrgerTbi4VGp3OAPMM_mw&s=10" alt="Cố đô Huế với kinh thành cổ"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT12odISjLzO_n7qOPlbSqru-vQd1vuCqyXzW4VAh7m8Q&s=10" alt="Ruộng bậc thang vàng ở Mù Cang Chải"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
